@@ -1,2 +1,2 @@
 # REXX - syntax highlighting for highlight.js
-highlight.js syntax
+Allows you to highlight REXX syntax in code blocks using highlight.js
