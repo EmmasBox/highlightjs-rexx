@@ -7,8 +7,14 @@
     "type": "git",
     "url": "git+https://github.com/EmmasBox/highlightjs-rexx.git"
   },
+  "keywords": [
+    "rexx",
+    "hljs",
+    "highlightjs",
+    "highlight.js"
+  ],
   "author": "Emma Skovgaard - dinoframe.io",
-  "license": "Apache-2.0",
+  "license": "GPL-3.0 license",
   "bugs": {
     "url": "https://github.com/EmmasBox/highlightjs-rexx/issues"
   },
