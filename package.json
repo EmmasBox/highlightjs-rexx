@@ -1,6 +1,8 @@
 {
   "name": "highlightjs-rexx",
   "version": "0.1.0",
+  "description": "REXX syntax highlighting for highlight.js",
+  "main": "src/rexx.js",
   "dependencies": {
   },
   "repository": {
