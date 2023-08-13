@@ -1,0 +1,18 @@
+{
+  "name": "highlightjs-rexx",
+  "version": "0.1.0",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmasBox/highlightjs-rexx.git"
+  },
+  "author": "Emma Skovgaard - dinoframe.io",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/EmmasBox/highlightjs-rexx/issues"
+  },
+  "devDependencies": {
+    "highlight.js": "^11.6.0"
+  }
+}
