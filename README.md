@@ -1,4 +1,4 @@
-[![version](https://badgen.net/npm/v/highlightjs-rexx)](https://www.npmjs.com/package/highlightjs-rexx)
+[![version](https://badgen.net/npm/v/highlightjs-rexx)](https://www.npmjs.com/package/highlightjs-rexx) [![license](https://badgen.net/badge/license/GPL3.0)](./LICENSE)
 
 # REXX - syntax highlighting for highlight.js
 Allows you to highlight REXX syntax in code blocks using highlight.js
