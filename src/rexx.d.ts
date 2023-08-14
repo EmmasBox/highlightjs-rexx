@@ -1,4 +1,3 @@
-import {LanguageFn} from "highlight.js";
+import {HLJSApi, Language} from "highlight.js";
 
-declare const defineLanguage: LanguageFn;
-export default defineLanguage;
+export default function defineLanguage(hljs: HLJSApi): Language;

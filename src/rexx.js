@@ -11,6 +11,7 @@ export default function (hljs) {
                 'Arg',
                 'Call',
                 'Do',
+                'End',
                 'Drop',
                 'Exit',
                 'If',
@@ -37,7 +38,7 @@ export default function (hljs) {
                 'Result',
                 'Sigl',
             ],
-            commands: [
+            built_in: [
                 'DELSTACK',
                 'DROPBUF',
                 'EXECIO',
@@ -56,30 +57,27 @@ export default function (hljs) {
                 'TS',
             ]
         },
-        contains:
-            [
-                {
-                    scope: 'comment',
-                    being: /\/\*/i,
-                    end: /\*\//i,
-                },
-                {
-                    scope: 'operator',
-                    begin: /(\+| - |\*\*|\*|\/|<>|>=|<=|¬<|¬>|>|<|==|¬==|=|¬=|&&|&|%|::)/
-                },
-                {
-                    scope: 'number',
-                    begin: /([0-9]+(?:(\.|,)[0-9]+)*)/
-                },
-                {
-                    scope: 'string',
-                    begin: '"', end: '"'
-                },
-                {
-                    scope: 'string',
-                    begin: "'", end: "'"
-                },
-            ]
-
+        contains: [
+            hljs.COMMENT(
+            /\/\*/,
+            /\*\//,
+            ),
+            {
+                scope: 'string',
+                begin: '"', end: '"'
+            },
+            {
+                scope: 'string',
+                begin: "'", end: "'"
+            },
+            {
+                scope: 'operator',
+                begin: /(\+| - |\*\*|\*|\/|<>|>=|<=|¬<|¬>|>|<|==|¬==|=|¬=|&&|&|%|::)/
+            },
+            {
+                scope: 'number',
+                begin: /([0-9]+(?:(\.)[0-9]+)*)/
+            },
+        ]
     }
 }
