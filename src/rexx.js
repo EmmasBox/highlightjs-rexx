@@ -2,7 +2,7 @@
 export default function (hljs) {
     return {
         name: 'REXX',
-        aliases: ['rexx'],
+        aliases: ['rexx','TRL','TRL-2'],
         case_insensitive: true,
         keywords: {
             $pattern: /[a-zA-Z]+(?:-[a-zA-Z0-9]+)*/,
