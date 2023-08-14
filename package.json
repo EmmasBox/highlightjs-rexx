@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "REXX syntax highlighting for highlight.js",
   "main": "src/rexx.js",
+  "types": "src/rexx.d.ts",
   "dependencies": {
   },
   "repository": {
