@@ -76,7 +76,7 @@ export default function (hljs) {
             },
             {
                 scope: 'number',
-                begin: /([0-9]+(?:(\.)[0-9]+)*)/
+                begin: /(\b[0-9]+(?:(\.)[0-9]+)*)/
             },
         ]
     }
