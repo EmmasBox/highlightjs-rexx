@@ -5,7 +5,7 @@ export default function (hljs) {
         aliases: ['rexx','TRL','TRL-2'],
         case_insensitive: true,
         keywords: {
-            $pattern: /[a-zA-Z]+(?:-[a-zA-Z0-9]+)*/,
+            $pattern: /[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*/,
             keyword: [
                 'Address',
                 'Arg',
@@ -76,7 +76,7 @@ export default function (hljs) {
             },
             {
                 scope: 'number',
-                begin: /(\b[0-9]+(?:(\.)[0-9]+)*)/
+                begin: /([0-9]+(?:(\.)[0-9]+)*)/
             },
         ]
     }
