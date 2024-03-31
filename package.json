@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-rexx",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "REXX syntax highlighting for highlight.js",
   "main": "src/rexx.js",
   "types": "src/rexx.d.ts",
